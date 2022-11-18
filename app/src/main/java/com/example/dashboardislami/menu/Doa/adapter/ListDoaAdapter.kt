@@ -15,7 +15,6 @@ import com.example.dashboardislami.menu.Doa.model.DoaModel
 class ListDoaAdapter(
     private val listDoa: ArrayList<DoaModel>,
     private val logo: Int,
-
     ) :
     RecyclerView.Adapter<ListDoaAdapter.ListViewHolder>() {
 
@@ -46,6 +45,7 @@ class ListDoaAdapter(
         }
 
     }
+
 
     override fun getItemCount(): Int {
         return listDoa.size

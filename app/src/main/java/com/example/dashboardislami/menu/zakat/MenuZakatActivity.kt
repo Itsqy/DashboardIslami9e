@@ -13,6 +13,7 @@ import java.util.*
 
 class MenuZakatActivity : AppCompatActivity() {
 
+
     lateinit var binding: ActivityMenuZakatBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityMenuZakatBinding.inflate(layoutInflater)
@@ -30,7 +31,8 @@ class MenuZakatActivity : AppCompatActivity() {
 
             if (TextUtils.isEmpty(binding.edtInputZakat.text)) {
                 Toast.makeText(this, "isi dong !!", Toast.LENGTH_SHORT).show()
-            } else if (binding.edtInputZakat.getNumericValue().toInt() >= 85000000) {
+            }
+            else if (binding.edtInputZakat.getNumericValue().toInt() >= 85000000) {
 //                hitung-hitungan Zakat
                 val zakat = binding.edtInputZakat.getNumericValue().toInt() * (2.5/100)
                 val formatZakat = NumberFormat
@@ -45,7 +47,8 @@ class MenuZakatActivity : AppCompatActivity() {
                     .format(binding.edtInputZakat.getNumericValue())
 
                 binding.tvTotalUang.text = "$formatTotalUang"
-            } else {
+            }
+            else {
                 Toast.makeText(this, "Total Harta Belum Mencapai nishab (85 gr Emas)", Toast.LENGTH_SHORT).show()
            binding.tvTotalZakat.text = "Rp 0"
             }

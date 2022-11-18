@@ -15,15 +15,17 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/drawable/bg_rounded_zakat_cost.xml" value="0.121" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/drawable/bg_rounded_zakat_total.xml" value="0.121" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/activity_detail_doa.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/activity_detail_video_kajian.xml" value="0.264" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/activity_list_doa.xml" value="0.2421875" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/activity_main.xml" value="0.2245762711864407" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/activity_menu_doa.xml" value="0.264" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/activity_menu_dzikir.xml" value="0.25" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/activity_menu_jadwal_shalat.xml" value="0.136" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/activity_menu_video_kajian.xml" value="0.24583333333333332" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/activity_menu_zakat.xml" value="0.72" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/activity_menu_video_kajian.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/activity_menu_zakat.xml" value="0.264" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/item_row_inspirasi.xml" value="0.21973094170403587" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/item_row_listdoa.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/item_row_video_kajian.xml" value="0.2" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/DashboardIslami3/app/src/main/res/layout/tesconstraint.xml" value="0.152" />
       </map>
     </option>

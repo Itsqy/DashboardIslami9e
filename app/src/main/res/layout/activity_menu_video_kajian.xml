@@ -6,4 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".menu.video_kajian.MenuVideoKajianActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_video_kajian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/toolbarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24"
+        app:title="Video Kajian"
+        app:titleTextColor="@color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_video_kajian"
+        tools:listitem="@layout/item_row_video_kajian" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
