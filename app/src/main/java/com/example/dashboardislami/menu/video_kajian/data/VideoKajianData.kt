@@ -78,6 +78,8 @@ object VideoKajianData {
                 video.titleVideo = titleVideo[position]
                 video.speakervideo = speakerVideo[position]
                 video.deskripsiVideo = deskripsiVideo[position]
+//                tambahkan video ke dalam varibale list
+                list.add(video)
 
             }
 

@@ -29,7 +29,9 @@ class ListDoaActivity : AppCompatActivity() {
         logo = intent.getIntExtra("ext_icon", 0)
         setSupportActionBar(binding.toolbarListdoa)
         supportActionBar?.title = title
+
         initrecyclerView()
+
     }
 
     private fun initrecyclerView() {

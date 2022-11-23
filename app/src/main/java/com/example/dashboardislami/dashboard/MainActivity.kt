@@ -82,8 +82,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-
-
     }
 
     private fun initNavMenu() {
@@ -100,12 +98,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, MenuZakatActivity::class.java))
         }
 
-        binding.ivJadwalShalat.setOnClickListener {
-            startActivity(Intent(this, MenuJadwalShalatActivity::class.java))
-        }
+
 
         binding.ivVideoKajian.setOnClickListener {
-            startActivity(Intent(this, MenuVideoKajianActivity::class.java))
+            val intent = Intent(this, MenuVideoKajianActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.ivJadwalShalat.setOnClickListener {
+            startActivity(Intent(this, MenuJadwalShalatActivity::class.java))
         }
     }
 }

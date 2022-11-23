@@ -14,11 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/appTheme">
         <activity
-            android:name=".DetailVideoKajianActivity"
-            android:exported="false" />
-        <activity
             android:name=".menu.Doa.DetailDoaActivity"
             android:exported="false" />
+        
         <activity
             android:name=".menu.Doa.ListDoaActivity"
             android:exported="false" />

@@ -25,8 +25,8 @@ class ListDoaAdapter(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
-        val view: View =
-            LayoutInflater.from(parent.context).inflate(R.layout.item_row_listdoa, parent, false)
+        val view: View = LayoutInflater.from(parent.context)
+            .inflate(R.layout.item_row_listdoa, parent, false)
         return ListViewHolder(view)
     }
 
